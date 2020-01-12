@@ -4,6 +4,7 @@ public class Profile {
 
     private String name;
     private String description;
+    private String imgURL;
 
     public String getName() {
         return name;
@@ -16,9 +17,6 @@ public class Profile {
     public String getImgURL() {
         return imgURL;
     }
-
-    private String imgURL;
-
 
     public Profile (String name, String description, String imgURL) {
         this.imgURL = imgURL;
